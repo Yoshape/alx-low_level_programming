@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-char Mystr[10] = "Programming is like building a multilingual puzzle";
+const char *Mystr = "Programming is like building a multilingual puzzle";
 puts(Mystr);
 return (0);
 }
