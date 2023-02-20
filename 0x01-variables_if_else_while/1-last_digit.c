@@ -4,6 +4,7 @@
 
 /**
  * main - prints the last digit of the variable n
+ * and whether it is greater than 5, less than 6, or 0
  *
  * Return: 0 (success)
  */
