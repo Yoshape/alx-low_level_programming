@@ -8,10 +8,10 @@
 
 int main(void)
 {
-	char alph[53] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char alph[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
-	for (i = 0; i <= 53; i++)
+	for (i = 1; i <= 52; i++)
 	{ putchar(alph[i]);
 	}
 	putchar('\n');
