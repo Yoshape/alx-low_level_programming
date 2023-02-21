@@ -8,13 +8,11 @@
 
 int main(void)
 {
-	char c;
+	char alph[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+		int i;
 
-	for (c = 'a'; c <= 'z'; ++c)
-	{ putchar(c);
-	}
-	for (c = 'A'; c <= 'z'; c++)
-	{ putchar(c);
+	for (i = 0; i <= 52; i++)
+	{ putchar(alph[i]);
 	}
 	putchar('\n');
 	return (0);
