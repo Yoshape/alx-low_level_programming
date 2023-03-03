@@ -5,7 +5,7 @@
  * _strcat - concatenates two strings
  * @dest: a string
  * @src: a string
- * Returns a pointer to the resulting string dest
+ * Return: a pointer to the resulting string dest
  */
 
 /* function implementation */
