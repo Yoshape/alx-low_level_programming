@@ -1,4 +1,5 @@
-#include <main.h>
+#include "main.h"
+#include <stdio.h>
 
 /* prints a string followed by a new line
  * @s- string to be printed
