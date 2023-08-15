@@ -13,5 +13,7 @@ int wildcmp(char *s1, char *s2);
 int _putchar(char c);
 int natural_sqrt(int n, int i);
 int actual_prime(int n, int i);
+int check_pal(char *s, int i, int len);
+int _strlen_recursion(char *s);
 
 #endif
