@@ -58,10 +58,11 @@ int main(int argc, char *argv[])
 	int i;
 	int num;
 	int mul = 1;
+	int j = argc - 1;
 
-	if (argc > 1)
+	if (j > 1)
 	{
-		for (i = 1; i < argc; i++)
+		for (i = 1; i < j; i++)
 		{
 			num = covert_str(argv[i]);
 			mul = mul * num;
