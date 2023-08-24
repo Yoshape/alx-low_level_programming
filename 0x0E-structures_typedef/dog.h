@@ -9,21 +9,6 @@
  * Description: Longer description
  */
 
-struct dog
-{
-	char *name;
-	float age;
-	char *owner;
-};
-
-/**
- * struct dog - a dog's basic info
- * @name: First member
- * @age: Second member
- * @owner: Third member
- * dog_t - new name for the type struct dog
- */
-
 typedef struct dog
 {
 	char *name;
